@@ -1,0 +1,8 @@
+[package]
+name = "rsim_core"
+version = "1.0.0-beta.1"
+edition = "2021"
+
+[dependencies]
+crossbeam-channel = "=0.5.14"
+rsim_macro = { git = "ssh://git@github.com:22/averageFOSSenjoyer/rsim-macro.git" }
