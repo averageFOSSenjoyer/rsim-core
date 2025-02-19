@@ -1,6 +1,5 @@
 use crate::simple_component::simple_event::SimpleData;
 use crossbeam_channel::{unbounded, Sender};
-use rsim_core::ack;
 use rsim_core::component::Component;
 use rsim_core::rx::Rx;
 use rsim_core::sim_manager::SimManager;
@@ -28,6 +27,7 @@ pub struct SimpleLoopback {
 }
 
 impl SimpleLoopback {
+    #![allow(dead_code)]
     pub fn new(
         component_id: ComponentId,
         sim_manager: Arc<SimManager>,

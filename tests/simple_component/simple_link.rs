@@ -2,7 +2,6 @@ use crate::simple_component::simple_event::SimpleData;
 use crossbeam_channel::Sender;
 use rsim_core::component::Component;
 use rsim_core::rx::Rx;
-use rsim_core::rx::RxType::NewValue;
 use rsim_core::sim_manager::SimManager;
 use rsim_core::tx::Tx;
 use rsim_core::types::ComponentId;

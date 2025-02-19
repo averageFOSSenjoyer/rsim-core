@@ -60,7 +60,7 @@ fn simple_test() {
     }
 
     let start = SystemTime::now();
-    sim_manager.run();
+    let _ = sim_manager.run();
     let processing_time = start.elapsed().unwrap().as_secs_f64();
 
     thread_handlers.into_iter().for_each(|h| {

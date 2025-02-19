@@ -1,6 +1,5 @@
 use crate::simple_component::simple_event::SimpleData;
 use crossbeam_channel::{unbounded, Sender};
-use rsim_core::ack;
 use rsim_core::component::Component;
 use rsim_core::sim_manager::SimManager;
 use rsim_core::tx::Tx;
